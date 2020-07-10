@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <title>Workshop-usuario</title>
+</head>
+
+<body>
+    <header>
+        <div class="container_menu">
+            <ul>
+                <li class="menu"><a href="/../../index.html">Home</a></li>
+                <li class="menu"><a href="login.html">Login/Sign in</a></li>
+                <!-- <li class="menu"><a href="admin.html">Administración</a></li> -->
+            </ul>
+        </div>
+        <div class="container_head">
+            <h1>Log in / Registro</h1><br>
+        </div>
+    </header>
+
+    <section>
+        <div class="container_section">
+            <h2 id="usuario">Ingresar</h2>
+            <p>
+                Ingresa para compras. "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmodtempor"
+            </p>
+
+<!----------- Login usuario y administrador ----------->
+
+            <div id="container_form" class="container_form">
+
+                    <label for="username_login">Usuario</label>
+                    <input type="text" id="username_login" placeholder="Escribe tu usuario" /><br />
+                    <label for="password_login">Contraseña</label>
+                    <input type="password" id="password_login" placeholder="Escribe tu password" /><br />
+
+                    <button id="btnlogin">Entrar</button>
+                    
+            </div>
+        </div>
+
+        <div class="container_section">
+            <h2 id="usuario">Registra un nuevo usuario</h2>
+            <p>
+                Ingresa para compras. "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmodtempor"
+            </p>
+
+<!----------- Registro de nuevo usuario ----------->
+
+            <div id="container_form_reg" class="container_form">
+                <label for="username">Nombre de Usuario</label>
+                <input type="text" id="username_signin" placeholder="Escribe tu usuario" /><br />
+                <label for="username">Ingresa tu email</label>
+                <input type="text" id="email_signin" placeholder="corona@gmail.com" /><br />
+                <label for="password">Contraseña</label>
+                <input type="password" id="password_signin" placeholder="Escribe tu password" /><br />
+                <button id="btnRegistrar">Entrar</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container_foot">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <p><span> Para aprender más acerca de Node.js visita </span><a href="https://nodejs.org/en/">éste
+                            Link</a></p>
+                </div>
+            </div>
+        </footer>
+        <script src="../../app/js/variables.js"></script>
+        <script src="../../app/js/login.js"></script>
+        <script src="../../app/js/signin.js"></script>
+    </body>
+
+</html>
