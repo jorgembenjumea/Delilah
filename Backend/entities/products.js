@@ -7,12 +7,11 @@ module.exports = (sequelize, type) => {
       primaryKey: true,
       autoIncrement: true,
     },
-    image_Url: type.STRING,
+    
     packageName: type.STRING,
-    destination: type.STRING,
     description: type.STRING,
-    quantity: type.INTEGER,
     price: type.INTEGER,
+    image_Url: type.STRING,
 
     createdAt: {
       allowNull: false,

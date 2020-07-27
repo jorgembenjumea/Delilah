@@ -5,8 +5,11 @@ module.exports = (sequelize, type) => {
       primaryKey: true,
       autoIncrement: true,
     },
-    usuario: type.STRING,
+    username: type.STRING,   
     name: type.STRING,
+    phone: type.STRING,
+    address: type.STRING,
+    isAdmin: type.BOOLEAN,
     email: {
       type: type.STRING,
       validate: {
@@ -26,7 +29,7 @@ module.exports = (sequelize, type) => {
   });
 };
 
-
+// username, name,phone, address, email, password
 
 
 
