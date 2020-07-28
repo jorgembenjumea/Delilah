@@ -1,8 +1,9 @@
+//Variables de Entorno 
 const config = {
     Port: 5400,
     ApiBaseUrl: "https://ambienteprueba.puntos.com",
     JwtSecretKey: "856ED746F97360B36E4BA820EB5A848206D5B40EA5D2D5BE0A5392E8BBD2A16C",
-    JwtExpiresToken: 18000, // seconds
+    JwtExpiresToken: 385400, // seconds
     LoginInfo: {
         User: "acamica",
         Password: "acamica123",
